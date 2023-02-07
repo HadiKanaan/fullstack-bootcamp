@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Assignment Two (js functions)</h2>
+
+<p id="concatenate"></p>
+<p id="replaceAll"></p>
+
+<script>
+function concatenateStrings(stringOne, stringTwo) {
+  return stringOne + " " +  stringTwo;
+}
+function replaceStrings(mainString,pattern,replacement ) {
+mainString = mainString.split(pattern).join(replacement);
+return mainString;
+}
+document.getElementById("concatenate").innerHTML = concatenateStrings("New theory suggests", "this world may not exist.");
+document.getElementById("replaceAll").innerHTML = replaceStrings("strong times create strong people.", "strong","easy");
+</script>
+</body>
+</html>

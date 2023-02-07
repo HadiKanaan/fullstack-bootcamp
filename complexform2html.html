@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complexform html</title>
+</head>
+<body>
+    <div>
+        <form>
+        <table>
+            <tr>
+            <th><label for="Title">Title:</label> </th>
+            <th><label for="STitle">Short Title:</label> </th>
+            <th>Subj.:</th>
+            <th><label for="number"> Num.: </label></th>
+            <th><label for="section"> Section: </label></th>
+            <th><label for="Year"> Year: </label></th>
+        </tr>
+        <tr>
+            <td><input type="text" id="title" name="title" required placeholder="Astronomy for astronomers"></td>
+            <td><input type="text" id="stitle" name="stitle" required placeholder="Ast. for asts."></td>
+            <td>BLST</td>
+            <td><input type="text" id="number" name="number"></td>
+            <td><input type="text" id="section" name="section"></td>
+            <td>0910</td>
+        </tr>
+        </table>
+        </form>
+        <hr>
+    </div>
+    <div>
+        <form>
+            <table >
+                <tbody>
+                    <tr>
+                    <table>
+                        <td>
+                    <table style="border: 1px solid black;">
+                        <tr>
+                            <td><input type="checkbox" id="enrollment limit" name="enrollment limit">Enrollment<br> limit</input></td>
+                            <th><label for="enrollment number">Num.:</label></th>
+                            <th><label for="enrollment rationale">Rationale:</label></th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="text" id="enrollment number" name="enrollment number"></td>
+                            <td><textarea id="enrollment rationale" cols="30" rows="1"></textarea></td>
+                        </tr>
+                    </table>
+                    </td>
+                    <td rowspan="4" style="position: relative;">
+                        <table style="border: 1px solid black">
+                            <tr><th><label for="class meetings">Class meetings/week</label></th></tr>
+                            <tr><td><input type="number" id="class meetings" name="class meetings"></td></tr>
+                            <tr><th><label for="class hours">Class hours/week:</label></th></tr>
+                            <tr><td><input type="number" id="class hours" name="class hours"></td></tr>
+                            <tr><th><label for="semesters offered">Semester(s) offered:</label></th></tr>
+                            <tr><td><input type="number" id="semesters offered" name="semesters offered"></td></tr>
+                            <tr><th><input type="checkbox" id="semester prereqs" name="semester prereqs">Incl. semester in<br> prereqs.</th></tr>
+                            <tr><th><input type="checkbox" id="offered only" name="offered only">Offered only once</th></tr>
+                            <tr><th><input type="checkbox" id="printed catalog" name="printed catalog">Incl. in printed <br> catalog</th></tr>
+                        
+                        </table>
+                    </td>
+                    
+                    <table style="border: 1px solid black;">
+                        <tr>
+                            <td><input type="checkbox" id="consent required" name="consent required">Consent<br> required</input></td>                            
+                            <th><label for="consent rationale">Rationale:</label></th>
+                        </tr>
+                        <tr>
+                             <td></td>                         
+                            <td><textarea id="consent rationale" cols="30" rows="1"></textarea></td>
+                        </tr>
+                    </table>
+                    <table style="border: 1px solid black;">
+                        <tr>
+                            <td><input type="checkbox" id="limit class" name="limit class">limit class<br> level</input></td>              
+                            <th><label for="code">Code:</label></th>
+                            <th><label for="limit rationale">Rationale:</label></th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="text" id="code" name="code"></td>
+                            <td><textarea id="limit rationale" cols="30" rows="1"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <th><label for="howtohandle">How to handle over-enrollment:</label></th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><textarea id="howtohandle" cols="30" rows="1"></textarea></td>
+                        </tr>
+                    </table>
+                    <table style="border: 1px solid black;">
+                        <tr>
+                            <td><input type="checkbox" id="prerequisite" name="prerequisite">Prerequisite</input></td>                            
+                            <th><label for="pre rationale">Rationale:</label></th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><textarea id="pre rationale" cols="30" rows="1"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <th><label for="req preqs">Required Prereqs.(major,course):</label></th>
+                        </tr>
+                        <tr>
+                        <td></td>
+                        <td><textarea id="req preqs" cols="30" rows="1"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <th><label for="rec preqs">Recommended Prereqs:</label></th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><textarea id="rec preqs" cols="30" rows="1"></textarea></td>
+                        </tr>
+                    </table>
+                    </table>
+                    
+                    </tr>
+                </tbody>
+                
+            </table>
+        </form>
+    </div>
+    
+</body>
+</html>
