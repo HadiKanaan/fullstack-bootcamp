@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kill the Monster</title>
+    <link rel="stylesheet" href="./mhealthbar.css">
+    <script src="./killthemonster.js"></script></head>
+<body>
+    <div  class="page-title">Kill The Monster</div>
+    <div class="progress-bar-container">
+            <div style="text-align: center;">
+                Monster health
+            </div>
+                <div id="monsterhealth">
+                    <div id="mhealth"></div>
+                  </div> 
+            <!--the fight was made shorter because it took too long and became boring during playtesting,
+                 but the monster's health was buffed to add more dynamic to the game-->
+    </div>
+    <div class="progress-bar-container">
+            <div style="text-align: center;">
+                Your Health
+            </div>
+        <div>
+                <div id="yourhealth">
+                    <div id="yhealth"></div>
+                  </div> 
+    </div>
+    </div>
+<form>
+    <table style="margin-left: auto;margin-right: auto;">
+        <tr>
+            <td class="action-button" onclick="attackFunction(),counter()">ATTACK</td>
+            <td class="action-button" onclick="specFunction(),counter()">SPECIAL ATTACK</td>
+        </tr>
+         <tr>
+            <td class="action-button" onclick="healFunction(),counter()">HEAL</td>
+            <td class="action-button" onclick="giveup()">GIVE UP</td>
+        </tr>
+    </table>
+</form>
+
+<div class="battle-log-container" id="battle-log-container">
+
+<div class="battle-log-main-title">
+    Battle Log
+</div>
+</div>
+
+</body>
+</html>
